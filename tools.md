@@ -10,7 +10,7 @@ Every Leadsets tool is available both as an MCP tool on `https://mcp.leadsets.ai
 
 | MCP tool | REST route | What it does | What it uses |
 |---|---|---|---|
-| `search_people` | `POST /v1/people/search` | Find people by title, function, seniority, location, company size and industry. Every result says why it matched. | 1 search record per record returned, 1 request per call |
+| `search_people` | `POST /v1/people/search` | Find people by title, function, seniority, location, company size and industry. Every result says why it matched. | 1 search record per record returned (person, company), 1 enrichment record per email, 1 request per call |
 | `search_companies` | `POST /v1/companies/search` | Find accounts by what they do, industry, headcount band, technology and location. | 1 search record per record returned |
 | `enrich_person` | `POST /v1/people/enrich` | Current role, company, and a verified work email when one exists. | 1 enrichment record per record returned |
 | `enrich_company` | `POST /v1/companies/enrich` | Firmographics for a domain, with source and freshness on every field. | 1 enrichment record per record returned |
@@ -18,6 +18,8 @@ Every Leadsets tool is available both as an MCP tool on `https://mcp.leadsets.ai
 | `scrape_company` | `POST /v1/scrape/company` | A company homepage as structured JSON: products, positioning, named customers and key links. | 1 scrape unit per standard page (add-on) |
 | `scrape_jobs` | `POST /v1/scrape/jobs` | Open roles from careers pages, with titles and dates, for hiring signals. | 1 scrape unit per standard page (add-on) |
 | `get_usage` | `GET /v1/usage` | What is used and what is left on every meter, with reset times. | Nothing |
+
+In people search, each person is one record and their company another: pass `include_company: false` for people only. Work emails come with `include_emails: true` (or `has_verified_email`) and use 1 enrichment record each.
 
 An empty result uses 0 records and 1 request. A `count_only` people search returns only how many people match and uses no records.
 
@@ -30,6 +32,7 @@ From the [people search reference](https://www.leadsets.ai/docs/api/people-searc
 - `function`: `revenue`, `marketing`, `engineering`, `product`, `ops`, `finance`, `hr`
 - `company_domain`, `employees` (a range such as `"50-200"`), `industry` (slugs such as `"saas"`), `country` (ISO 3166-1 alpha-2)
 - `has_verified_email` to return only people with a verified work email
+- `include_company` (default true) and `include_emails` (default false, on with `has_verified_email`)
 - `company_keywords` and `exclude_company_keywords` to match what the company does
 - `max_age_days` and `exclude_stale` for freshness
 - `priorities` to rank the best contacts at one company by groups of titles
