@@ -92,6 +92,6 @@ Prompt:
 - [gtm-recipes](https://github.com/leadsets/gtm-recipes): ICP list builders, verification scripts and MCP prompts
 - [n8n-workflows](https://github.com/leadsets/n8n-workflows): ready-to-import n8n workflows
 - [leadsets-skills](https://github.com/leadsets/leadsets-skills): fifty free, MIT-licensed SKILL.md playbooks
-- [Leadsets docs](https://www.leadsets.ai/docs) · [Pricing](https://www.leadsets.ai/pricing) · [Get a free API key](https://www.leadsets.ai/signup)
+- [Leadsets docs](https://www.leadsets.ai/docs) · [Pricing](https://www.leadsets.ai/pricing) · [Join the waitlist](https://www.leadsets.ai/signup) (public launch 10 December 2026)
 
 [Back to the Leadsets developer hub](./)

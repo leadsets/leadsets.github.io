@@ -72,10 +72,10 @@ Records come from licensed suppliers and public sources Leadsets is permitted to
 
 ## FAQ
 
-**Is there a free plan?** Yes. 1,000 enrichments and 100 search records, with no card.
+**Is there a free plan?** Yes, at the public launch on 10 December 2026: 1,000 enrichments and 100 search records, with no card. Until then, join the waitlist.
 
 **Do I need an API key for MCP?** No. The MCP server uses OAuth sign-in. REST calls use a bearer key.
 
 **Does Leadsets include phone numbers?** No. Coverage is work emails, roles and company data.
 
-**How do I start?** [Get a free API key](https://www.leadsets.ai).
+**How do I start?** [Join the waitlist](https://www.leadsets.ai/signup) (public launch 10 December 2026; free plan with 1,000 enrichments and 100 search records, no card, at launch).

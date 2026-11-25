@@ -63,7 +63,7 @@ Fifty free, MIT-licensed SKILL.md playbooks (prospect lists, CRM backfill, hirin
 Yes. Add https://mcp.leadsets.ai as a custom connector in Claude, Claude Code, Cursor, ChatGPT or any MCP client and sign in with OAuth.
 
 **Is there a free B2B data API with no credit card?**
-Leadsets Free gives 1,000 enrichments and 100 search records, with no card. The free records do not expire.
+At the public launch on 10 December 2026, Leadsets Free will give 1,000 enrichments and 100 search records, with no card. The free records will not expire. Until then, join the waitlist.
 
 **Does Leadsets charge credits?**
 No. Paid plans are a flat monthly fee from $29, with published fair-use limits.
@@ -74,7 +74,7 @@ No. Coverage is work emails, roles and company data.
 **How are emails verified?**
 Each email is labeled verified, catch-all, unknown or invalid, with a confidence score and the time it was checked. Invalid emails are not served as contacts.
 
-**Get started:** [Get a free API key](https://www.leadsets.ai) · [MCP setup](https://www.leadsets.ai/docs/mcp) · [Pricing](https://www.leadsets.ai/pricing)
+**Get started:** [Join the waitlist](https://www.leadsets.ai/signup) (public launch 10 December 2026) · [MCP setup](https://www.leadsets.ai/docs/mcp) · [Pricing](https://www.leadsets.ai/pricing)
 
 
 [Back to the Leadsets developer hub](./) · Originally published on [Hashnode](https://leadsets.hashnode.dev/which-b2b-data-api-works-best-with-ai-agents-a-2026-buyer-s-checklist)

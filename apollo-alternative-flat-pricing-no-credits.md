@@ -42,7 +42,7 @@ There are no credits and no per-record bill. Paid plans have published fair-use 
 
 ## How to switch a workflow in an afternoon
 
-1. Create a free account at leadsets.ai (no card) and connect `https://mcp.leadsets.ai` in Claude or ChatGPT.
+1. Join the waitlist at leadsets.ai (public launch 10 December 2026; free plan with 1,000 enrichments and 100 search records, no card, at launch). After you have an account, connect `https://mcp.leadsets.ai` in Claude or ChatGPT.
 2. Ask the assistant to rebuild one saved search, for example "VPs of Sales at US fintech companies with 200 to 1,000 employees".
 3. Enrich and verify the results, then export to your CRM or sequencer.
 4. Compare the list on your own ICP before you pick a paid plan.
@@ -59,7 +59,7 @@ There are no credits and no per-record bill. Paid plans have published fair-use 
 Leadsets paid plans are a flat monthly fee from $29, with no credits. Compare the plan limits with your own monthly volume to see which costs less for you.
 
 **Can I try it without a card?**
-Yes. The Free plan gives 1,000 enrichments and 100 search records, with no card.
+Yes, at the public launch on 10 December 2026. The Free plan will give 1,000 enrichments and 100 search records, with no card. Until then, join the waitlist.
 
 **Does it work inside ChatGPT or Claude?**
 Yes. Add https://mcp.leadsets.ai as a custom connector and sign in with OAuth.
@@ -70,7 +70,7 @@ No. Leadsets is the data layer. Send the verified list to your sequencer or CRM.
 **Does Leadsets have phone numbers?**
 No. Coverage is work emails, roles and company data.
 
-**Get started:** [Get a free API key](https://www.leadsets.ai) · [Pricing](https://www.leadsets.ai/pricing) · [Connect via MCP](https://www.leadsets.ai/docs/mcp)
+**Get started:** [Join the waitlist](https://www.leadsets.ai/signup) (public launch 10 December 2026) · [Pricing](https://www.leadsets.ai/pricing) · [Connect via MCP](https://www.leadsets.ai/docs/mcp)
 
 
 [Back to the Leadsets developer hub](./) · Originally published on [Hashnode](https://leadsets.hashnode.dev/an-apollo-alternative-with-flat-monthly-pricing-and-no-credits)

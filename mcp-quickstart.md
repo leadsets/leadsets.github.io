@@ -11,7 +11,7 @@ Leadsets is a remote MCP server. Add one URL to your client and your agent gets 
 - Server URL: `https://mcp.leadsets.ai`
 - Auth: OAuth sign-in where the client supports it, otherwise an API key in an `Authorization: Bearer` header (keys start with `ls_live_`)
 - Official setup page: [leadsets.ai/docs/mcp](https://www.leadsets.ai/docs/mcp)
-- No account yet? [Get a free API key](https://www.leadsets.ai/signup). Free is 1,000 enrichments and 100 search records, no card.
+- No account yet? [Join the waitlist](https://www.leadsets.ai/signup) (public launch 10 December 2026). At launch, the free plan will be 1,000 enrichments and 100 search records, no card.
 
 ## Claude (web and desktop)
 
