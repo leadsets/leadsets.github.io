@@ -71,7 +71,7 @@ Up to 100 emails per call. Each email that gets a status uses one enrichment rec
 
 ## 5. Best contact at one target account
 
-Use `priorities` on `search_people` with one `company_domain` and up to ten groups of titles, best first, for example founders and CEOs first, then heads of growth and VPs of sales. Results fill from the first group, never repeat a person and put verified emails first.
+Use `priorities` on `search_people` with one `company_domain` and up to ten groups of titles, best first, for example founders and CEOs first, then heads of growth and VPs of sales. Results fill from the first group, never repeat a person and put verified emails first. Add `include_emails: true` to get their work emails (1 enrichment record each).
 
 ## 6. Hiring signals from careers pages
 
