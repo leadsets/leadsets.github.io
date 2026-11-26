@@ -15,8 +15,8 @@ Every Leadsets tool is available both as an MCP tool on `https://mcp.leadsets.ai
 | `enrich_person` | `POST /v1/people/enrich` | Current role, company, and a verified work email when one exists. | 1 enrichment record per record returned |
 | `enrich_company` | `POST /v1/companies/enrich` | Firmographics for a domain, with source and freshness on every field. | 1 enrichment record per record returned |
 | `verify_email` | `POST /v1/emails/verify` | One email or up to 100 per call, each labelled verified, catch_all, unknown or invalid, with a confidence score. | 1 enrichment record per email that gets a status |
-| `scrape_company` | `POST /v1/scrape/company` | A company homepage as structured JSON: products, positioning, named customers and key links. | 1 scrape unit per standard page (add-on) |
-| `scrape_jobs` | `POST /v1/scrape/jobs` | Open roles from careers pages, with titles and dates, for hiring signals. | 1 scrape unit per standard page (add-on) |
+| `scrape_company` | `POST /v1/scrape/company` | A company homepage as structured JSON: products, positioning, named customers and key links. | 1 scrape unit per page read (add-on) |
+| `scrape_jobs` | `POST /v1/scrape/jobs` | Open roles from the company's careers page, job board and LinkedIn, with titles and dates, for hiring signals. | 1 scrape unit per role returned (add-on) |
 | `get_usage` | `GET /v1/usage` | What is used and what is left on every meter, with reset times. | Nothing |
 
 In people search, each person is one record and their company another: pass `include_company: false` for people only. Work emails come with `include_emails: true` (or `has_verified_email`) and use 1 enrichment record each.
