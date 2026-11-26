@@ -79,7 +79,7 @@ Prompt:
 
 > Use Leadsets scrape_jobs on these five company domains and list any open sales or marketing roles with title, team, location and date.
 
-Scraping uses scrape units, an add-on on paid plans (1 unit is one standard page). For a ready-made watcher that prints only new roles, see [job-intent-agent](https://github.com/leadsets/job-intent-agent).
+Scraping uses scrape units, an add-on on paid plans: `scrape_jobs` counts 1 unit per open role returned, capped with `limit`. For a ready-made watcher that prints only new roles, see [job-intent-agent](https://github.com/leadsets/job-intent-agent).
 
 ## 7. Account research in one pass
 
